@@ -2,7 +2,10 @@
 
 这是一个基于 Django + Vue 3 的全栈客户投诉管理系统，旨在帮助团队高效地登记、追踪和解决客户反馈的问题。系统支持多角色协作、工单全生命周期管理以及数据统计分析。
 
-完整源码获取 ![https://faka.gzicreate.top/buy/312]
+# 完整源码持续更新
+[完整源码获取](https://faka.gzicreate.top/buy/312)
+
+
 ## 🛠 技术栈
 
 ### 后端 (Backend)
@@ -122,25 +125,9 @@ npm run dev
 
 前端默认运行在 `http://localhost:5173`。
 
-## 📂 项目结构
 
-```
-root/
-├── backend/                # Django 后端代码
-│   ├── complaints/         # 核心业务 App (工单、项目、评论等)
-│   ├── config/             # 项目配置 (settings.py, urls.py)
-│   ├── media/              # 用户上传的文件 (图片、附件)
-│   ├── manage.py           # Django 管理脚本
-│   └── init_groups.py      # 权限组初始化脚本
-├── frontend/               # Vue 3 前端代码
-│   ├── src/
-│   │   ├── components/     # 可复用组件 (ComplaintList, ComplaintForm 等)
-│   │   ├── views/          # 页面视图 (Home, Login, ProjectComplaints 等)
-│   │   ├── api.js          # Axios 接口封装
-│   │   └── router/         # 路由配置
-│   └── package.json
-└── README.md               # 项目说明文档
-```
+## 完整源码持续更新
+[完整源码获取](https://faka.gzicreate.top/buy/312)
 
 ## 📝 注意事项
 - **图片上传**: 确保后端 `media/` 目录有写入权限。
